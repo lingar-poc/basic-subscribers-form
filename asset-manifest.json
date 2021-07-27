@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/basic-subscribers-form/static/css/main.20400954.chunk.css",
+    "main.js": "/basic-subscribers-form/static/js/main.5e2d1ae7.chunk.js",
+    "main.js.map": "/basic-subscribers-form/static/js/main.5e2d1ae7.chunk.js.map",
+    "runtime-main.js": "/basic-subscribers-form/static/js/runtime-main.2c25e343.js",
+    "runtime-main.js.map": "/basic-subscribers-form/static/js/runtime-main.2c25e343.js.map",
+    "static/css/2.4be38407.chunk.css": "/basic-subscribers-form/static/css/2.4be38407.chunk.css",
+    "static/js/2.c0e4a2a9.chunk.js": "/basic-subscribers-form/static/js/2.c0e4a2a9.chunk.js",
+    "static/js/2.c0e4a2a9.chunk.js.map": "/basic-subscribers-form/static/js/2.c0e4a2a9.chunk.js.map",
+    "static/js/3.ae352ff5.chunk.js": "/basic-subscribers-form/static/js/3.ae352ff5.chunk.js",
+    "static/js/3.ae352ff5.chunk.js.map": "/basic-subscribers-form/static/js/3.ae352ff5.chunk.js.map",
+    "index.html": "/basic-subscribers-form/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/basic-subscribers-form/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.20400954.chunk.css.map": "/basic-subscribers-form/static/css/main.20400954.chunk.css.map",
+    "static/js/2.c0e4a2a9.chunk.js.LICENSE.txt": "/basic-subscribers-form/static/js/2.c0e4a2a9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c25e343.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.c0e4a2a9.chunk.js",
+    "static/css/main.20400954.chunk.css",
+    "static/js/main.5e2d1ae7.chunk.js"
+  ]
+}
