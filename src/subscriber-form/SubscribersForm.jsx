@@ -3,8 +3,7 @@ import Button from 'react-bootstrap/Button';
 import {useDebounceEmailValidation} from "./utils-hooks";
 import {Alert, Col, Form} from "react-bootstrap";
 
-export function SubscribersInput(props) {
-    console.log("SubscribersInput", props);
+export function SubscribersForm() {
     const [details, setDetails] = useState({
         firstName: "",
         lastName: "",
@@ -18,10 +17,8 @@ export function SubscribersInput(props) {
     const emailChange = useRef(false);
     const [validated, setValidated] = useState(false);
 
-    //For cases we need to access the email through local state and not by state
-    // (the value will persist between component re-rendering and the reference updating won't trigger a component re-rendering)
-    const emailRef = useRef("");
-    const validEmail = useDebounceEmailValidation(emailRef.current, 600);
+    const validEmail = useDebounceEmailValidation(details.email, 600);
+
 
     // // general layout effect - will be happen on each component update - for DEBUG
     // useLayoutEffect(() => {
@@ -39,18 +36,13 @@ export function SubscribersInput(props) {
         }, 2000);
     }, [popupMsg])
 
-    //happen after change in the details
-    useLayoutEffect(() => {
-        //handling email changing (validation)
-        if (emailChange.current) {
-            emailRef.current = details.email;
-        }
-    }, [details]);
+
 
     const handleChange = (ev) => {
         ev.persist();
-        if (ev.target.name === "email") {
+        if (ev.target.name === "email" ) {
             emailChange.current = true;
+
         } else {
             emailChange.current = false;
         }

@@ -1,10 +1,10 @@
 import './App.css';
-import {SubscribersInput} from "./subscriber-form/InputsTypes";
+import {SubscribersForm} from "./subscriber-form/SubscribersForm";
 
 function App() {
   return (
     <div className="App">
-      <SubscribersInput/>
+      <SubscribersForm/>
     </div>
   );
 }

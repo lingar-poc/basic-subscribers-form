@@ -1,11 +1,11 @@
-import React, {useEffect, useRef, useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 
 //Credit - based on this solution: https://usehooks.com/useDebounce/
 export function useDebounceEmailValidation(value, delay) {
+    // console.log("useDebounceEmailValidation ? ");
     // State and setters for debounced value
     const [valid, setValid] = useState(true);
     const initRun = useRef(true);
-
 
     useEffect(
         () => {
@@ -16,7 +16,7 @@ export function useDebounceEmailValidation(value, delay) {
             else{
                 // Update debounced value after delay
                 const handler = setTimeout(() => {
-                    console.log("validating mail");
+                    // console.log("validating mail - " ,value);
                     setValid(validateEmail(value));
                     // setDebouncedValue(value);
                 }, delay);
@@ -37,5 +37,5 @@ export function useDebounceEmailValidation(value, delay) {
 
 export function validateEmail(email) {
     var re = /\S+@\S+\.\S+/;
-    return re.test(email);
+    return re.test(email) || email==="";
 }
