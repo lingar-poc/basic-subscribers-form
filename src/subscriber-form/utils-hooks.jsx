@@ -2,7 +2,7 @@ import {useEffect, useRef, useState} from 'react';
 
 //Credit - based on this solution: https://usehooks.com/useDebounce/
 export function useDebounceEmailValidation(value, delay) {
-    // console.log("useDebounceEmailValidation ? ");
+    // console.log("useDebounceEmailValidation ? ", value);
     // State and setters for debounced value
     const [valid, setValid] = useState(true);
     const initRun = useRef(true);
@@ -37,5 +37,5 @@ export function useDebounceEmailValidation(value, delay) {
 
 export function validateEmail(email) {
     var re = /\S+@\S+\.\S+/;
-    return re.test(email) || email==="";
+    return re.test(email) || email==="";//the 2nd condition is for the form reset and we don't want to validate empty email slot.
 }
