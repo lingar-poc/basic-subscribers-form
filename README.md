@@ -19,10 +19,10 @@ Per Hour/ Per Project.
 
 Available worldwide for remote work, and for on-site work in Israel in the central and Jerusalem areas
 
-#"DO IT SIMPLE"
+# "DO IT SIMPLE"
 
 
-[https://www.linkedin.com/in/izhar-mashkif-86a01913a/][LinkedIn]
+[LinkedIn]
 
 
 yimprogramming@gmail.com
