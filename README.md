@@ -7,7 +7,7 @@ It’s done in React, Using React-Bootstrap.
 The email validation happens by delay (for not check in every type) by using a custom hook.
 For see it on action go to here:
 
-https://lingar-poc.github.io/basic-subscribers-form/
+https://lingar-poc.github.io/react-basic-subscribers-form/
 
 --------------------------------------------
 lingar - Izhar Mashkif, YIM Programming
