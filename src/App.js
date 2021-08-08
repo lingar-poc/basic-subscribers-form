@@ -18,6 +18,7 @@ function App() {
                 email is valid.<br/>
                 The email validation happens by delay (for not check in every type) by using a custom hook.
             </p>
+            <p><a href = "https://github.com/lingar-poc/react-basic-subscribers-form" target= "_blank">Github Repository</a></p>
             <hr/>
 
             <div className= "bottom-area">
