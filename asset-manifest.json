@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-basic-subscribers-form/static/css/main.e6a8630e.chunk.css",
-    "main.js": "/react-basic-subscribers-form/static/js/main.f60a90dd.chunk.js",
-    "main.js.map": "/react-basic-subscribers-form/static/js/main.f60a90dd.chunk.js.map",
+    "main.js": "/react-basic-subscribers-form/static/js/main.0b8e1fcb.chunk.js",
+    "main.js.map": "/react-basic-subscribers-form/static/js/main.0b8e1fcb.chunk.js.map",
     "runtime-main.js": "/react-basic-subscribers-form/static/js/runtime-main.f2307e26.js",
     "runtime-main.js.map": "/react-basic-subscribers-form/static/js/runtime-main.f2307e26.js.map",
     "static/css/2.4be38407.chunk.css": "/react-basic-subscribers-form/static/css/2.4be38407.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.69c43998.chunk.js",
     "static/css/main.e6a8630e.chunk.css",
-    "static/js/main.f60a90dd.chunk.js"
+    "static/js/main.0b8e1fcb.chunk.js"
   ]
 }
