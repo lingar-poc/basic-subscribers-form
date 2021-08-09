@@ -14,7 +14,7 @@ function App() {
             <br/>
             <br/>
             <p>
-                Here is a form which make validation on all fields (if they are exist), and also do validation if the
+                Here is a form which makes validation on all fields (if they are exist), and also do validation if the
                 email is valid.<br/>
                 The email validation happens by delay (for not check in every type) by using a custom hook.
             </p>
